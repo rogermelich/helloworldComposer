@@ -1,5 +1,5 @@
 <?php
-
+require __DIR__ . "/vendor/autoload.php";
 /**
  * Created by PhpStorm.
  * User: roger
@@ -8,8 +8,17 @@
  */
 class hello
 {
+    /**
+     * hello constructor.
+     */
+    public function __construct()
+    {
+        $this->faker = Faker\Factory::create();
+    }
+
+
     public function sayHello()
     {
-        echo "Hola mon";
+        echo "Hola " . $this->faker->name . "!\n";
  }
 }
