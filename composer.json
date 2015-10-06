@@ -1,9 +1,9 @@
 {
-    "name": "rogermelich/helloworld-composer",
+    "name": "rogermelich/helloworldcomposer-roger",
     "authors": [
         {
             "name": "rogermelich",
-            "email": "rogermelich@iesebre.com"
+            "email": "rogermelich@gmail.com"
         }
     ],
     "require": {
