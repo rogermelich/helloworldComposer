@@ -1,5 +1,8 @@
 <?php
-require __DIR__ . "/hello.php";
+require __DIR__ . "/src/hello.php";
+
+use Com\Iesebre\Dam2\rogermelich\helloworldComposer\hello;
+
 /**
  * Created by PhpStorm.
  * User: roger
